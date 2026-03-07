@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        .nav{
+            background-color: lightcyan;
+            padding: 5px;
+            width: 1500px;
+            
+
+        }
+        .nav-item ul li{
+            display: inline;
+            position: relative;
+            font-size: 20px;
+            padding: 10px;
+            a{
+                text-decoration: none;
+                text-align: right;
+                color: black;
+            }
+
+        }
+        .title{
+            font-size: 47px;
+            font-weight: 900;
+            position: absolute;
+            margin-top: 20px;
+            color: brown;
+        }
+        .dropdown-menu{
+            display:none;
+            position:absolute;
+            top: 75%;
+            left: 15px;
+        }
+        .dropdown:hover .dropdown-menu{
+            display:flex;
+            text-align:justify;
+            
+        }
+        
+         .marquee{
+            background-color:lightgoldenrodyellow;
+            padding: 15px;
+            font-weight: 900;
+            marquee>a{
+                text-decoration: none;
+                color:red;
+            }
+        }
+        .about{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            justify-content:space-between;
+            font-size: 20px;
+            text-align: justify;
+
+        }
+        .p{
+            height: 200px;
+            width:1100px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+       <a href="index.html"><img src="rguktlogo.jpg"alt="logo"height="100px"width="100px"></a>
+        <span class="title">Rajiv Gandhi University Of Knowledge Technologies Ongole Campus</span>
+        <div class="nav-item">
+            <ul type="none">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown"><a href="departments.html">Departments</a>
+                    <ul class="dropdown-menu" type="none">
+                        <li><a href="career1.jpg">CSE</a></li>
+                        <li><a href="career2.jpg">ECE</a></li>
+                        <li><a href="career3.jpg">EEE</a></li>
+                        <li><a href="career5.jpg">Civil</a></li>
+                        <li><a href="career4.jpg">Mech</a></li>
+                    </ul>
+                <li><a href="Almuni.html">Almuni</a></li>
+                <li class="dropdown"><a href="career.html">Career</a>
+                    <ul class="dropdown-menu" type="none">
+                        <li><a href="">Placements</a></li>
+                        <li><a href="">Competitive Exams</a></li>
+                        <li><a href="">Training</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p class="marquee"><marquee scrollamount="20"><a href="https://www.rgukt.in">To Go To Official Website click here</a></marquee></p>
+        <h1>About Chancellor:</h1>
+        <h3>Prof. K. Madhu Murthy</h3>
+        <div class="about">
+        <img src="KMadhuMurthy.jpg"height="250px"width="250px">
+        <p class="p">Prof. (Dr.) Kotha Madhu Murthy assumed charge as Chancellor (FAC) on 18.04.2025. An accomplished academician and administrator, he is currently serving as the Chairman of the Andhra Pradesh State Council of Higher Education (APSCHE). With over 37 years of experience in Mechanical Engineering and Entrepreneurship, he has made significant contributions to higher education policy, research, and institutional development.<br><br>
+        Prior to his current role, Prof. Murthy was a Professor (HAG) in the Department of Mechanical Engineering at the National Institute of Technology, Warangal (NITW), where he also served as a Member of the Board of Governors . His leadership roles at NITW included Dean (Faculty Welfare), Head of the Mechanical Engineering Department, and Registrar (Additional Charge). He also held the position of Registrar at NIT Delhi.</p>
+    </div>
+    <div class="about">
+    <h3 style="margin-top: -50px;">Founding Of Rgukt:</h3>
+    <p class="p">Rajiv Gandhi University of Knowledge Technologies (RGUKT) is a technical university established by the Government of Andhra Pradesh through Act No.18 in 2008 at three locations: Nuzvid (Krishna District), RK Valley (Kadapa District) , and Basara (Adilabad District). However, following the bifurcation of the erstwhile state of Andhra Pradesh into Andhra Pradesh and Telangana in 2014, the campuses were divided between the two states—Nuzvid and RK Valley remained with Andhra Pradesh. To extend quality education to more students, the Andhra Pradesh government established two additional campuses in Ongole and Srikakulam in 2016.</p>
+    </div>
+    <div class="about">
+        <p class="p">To transform rural youth into global leaders and innovators in science, technology, and multidisciplinary areas and contribute to the maximization of the welfare of humanity
+        To provide quality technical education with the goal of inclusiveness in terms of access to the meritorious rural youth, who are perennially deprived of opportunities through an innovative blend of modern computer-assisted, learner-centric instructional methodology along with rigorous traditional teaching in a world-class ambience.</p>
+        <h3 style="margin-top: -100px;">Vision&Mission</h3>
+    </div>
+</body>
+</html>
